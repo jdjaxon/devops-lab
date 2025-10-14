@@ -15,18 +15,21 @@ You are required to write a script `server-stats.sh` that can analyse basic serv
 
 
 ## Usage
+
 ### Methods
+You can use one of the following methods to run the script on your machine. Simply paste the command into your terminal.
+
 - `wget`
 ```bash
-sudo bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/linux_cac/main/cac_setup.sh -O -)"
+sudo bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh -O -)"
 ```
 
 - `curl`
 ```bash
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/jdjaxon/linux_cac/main/cac_setup.sh)"
+sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh)"
 ```
 
 - `fetch`
 ```bash
-sudo bash -c "$(fetch -o https://raw.githubusercontent.com/jdjaxon/linux_cac/main/cac_setup.sh)"
+sudo bash -c "$(fetch -o https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh)"
 ```
