@@ -21,15 +21,10 @@ You can use one of the following methods to run the script on your machine. Simp
 
 - `wget`
 ```bash
-sudo bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh -O -)"
+bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh -O -)"
 ```
 
 - `curl`
 ```bash
-sudo bash -c "$(curl -fsSL https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh)"
-```
-
-- `fetch`
-```bash
-sudo bash -c "$(fetch -o https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh)"
 ```
