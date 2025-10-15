@@ -28,3 +28,6 @@ bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh)"
 ```
+
+## References
+https://roadmap.sh/projects/server-stats
