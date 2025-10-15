@@ -20,4 +20,4 @@ bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/
 ```
 
 Example using `curl` method:
-[![](./assets/server_stats_screencast.webm)]
+![curl example video](./assets/server_stats_screencast.webm)]
