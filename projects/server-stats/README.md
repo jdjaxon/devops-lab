@@ -11,10 +11,10 @@ You can use one of the following methods to run the script on your machine. Simp
 
 - `wget`
 ```bash
-bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh -O -)"
+bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server-stats/server-stats.sh -O -)"
 ```
 
 - `curl`
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server_stats/server-stats.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server-stats/server-stats.sh)"
 ```
