@@ -3,6 +3,9 @@
 set -euo pipefail
 
 main() {
+    echo "Server Statistics"
+    echo "================="
+    echo
     get_cpu_usage
     get_memory_usage
     get_disk_usage
@@ -16,12 +19,11 @@ main() {
 
 
 print_section() {
-    echo "### $1 ###"
+    echo ">>> $1 <<<"
     shift 1
     for arg in "$@"; do
         echo "$arg"
     done
-    echo
     echo
 }
 
