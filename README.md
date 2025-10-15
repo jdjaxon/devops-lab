@@ -5,7 +5,7 @@ This repo is a collection of projects to refresh, improve, and build my skills w
 ## Projects
 ### [Server Performance Stats](https://github.com/jdjaxon/devops-lab/tree/main/projects/server-stats)
 The goal of this project is to write a script to analyse server performance stats.
-This project's specification can be found [here](https://roadmap.sh/devops/projects).
+This project's specification can be found [here](https://roadmap.sh/projects/server-stats).
 
 
 ## References
