@@ -19,5 +19,5 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/
 bash -c "$(wget https://raw.githubusercontent.com/jdjaxon/devops-lab/refs/heads/main/projects/server-stats/server-stats.sh -O -)"
 ```
 
-Example using `curl` method:
+### Example using `curl` method
 ![Demo of the script](./assets/demo.gif)
